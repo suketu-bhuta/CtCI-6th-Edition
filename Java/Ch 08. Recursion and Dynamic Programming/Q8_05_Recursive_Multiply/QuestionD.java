@@ -7,17 +7,7 @@ public class QuestionD {
 	 * https://en.wikipedia.org/wiki/Multiplication_algorithm#Peasant_or_binary_multiplication 
 	 */
 	public static int minProduct(int a, int b) {
-		if (a < b) return minProduct(b, a);
-		int value = 0;
-		while (a > 0) {
-			counter++;
-			if ((a % 10) % 2 == 1) {
-				value += b;
-			}
-			a >>= 1;
-			b <<= 1;
-		}	
-		return value;
+		return 0;
 	}
 	
 	public static void main(String[] args) {
